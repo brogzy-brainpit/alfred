@@ -49,7 +49,7 @@ const scaleMenu= {
     <div className="fixed top-[3%] w-full z-50">
       <header
         ref={ref}
-        className="container mx-auto flex justify-center items-center"
+        className="container px-5 mx-auto flex justify-center items-center"
         style={{ height: "var(--header-height)" }}
       >
         <div className="mix-blend-difference shadowlg backdropblur-lg  roundedfull w-full flex items-center justify-between py-2 px-2">

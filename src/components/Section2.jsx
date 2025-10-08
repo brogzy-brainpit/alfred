@@ -39,7 +39,7 @@ const slides =[
 <section className=' px5 pt-20 pb-5 lg:py-20 bgblue-600 container mx-auto'>
 
 <div className=' grid grid-cols-6 lg:grid-cols-12 gap-[1.25rem] lg:gap-[2.5rem] '>
-  <div className='bg-pink500 col-span-full lg:sticky lg:top-5   lg:mb-64 lg:col-span-4 bgred-400'>
+  <div className='px-5 bg-pink500 col-span-full lg:sticky lg:top-5   lg:mb-64 lg:col-span-4 bgred-400'>
     <h2 className="uppercase mb-8 font-custom text-neutral-200 text-5xl leading-[1] lg:leading-[1.1] lg:text-5xl mt-5 flex items-baseline flex-wrap">
  Metal <br/>
 Recycling 01
@@ -47,8 +47,8 @@ Recycling 01
     </div> 
 
     <div className='col-span-full  lg:col-start-5 lg:col-span-8 lg:mb-64 bgpurple-600'>
-    <div className=' grid grid-cols-8 gap-4 bg-purple200 '>
-    <div className='col-span-full lg:col-span-4'>
+    <div className='px-5 grid grid-cols-8 gap-4 bg-purple200 '>
+    <div className=' col-span-full lg:col-span-4'>
     <h2 className="font-body text-neutral-200 text-para leading-[1] lg:leading-[1.1] mt-5 mb-6 flex items-baseline flex-wrap">
  No matter where you are located, P. Kay Metal can handle all of your solder recycling needs.
 </h2>
@@ -63,7 +63,7 @@ Recycling 01
       )
     })}
   </SlideUpElement>
- 
+
 </h2>
 
     </div>
@@ -102,7 +102,7 @@ Recycling 01
 
     </div>
      <div className='col-span-full lg:col-span-4 col-start-4'>
-    <h2 className=" break-all font-custom text-neutral-200 text-5xl leading-[1] lg:leading-[0.9] lg:text-[12rem] mt-5 mb-6 flex items-baseline flex-wrap">
+    <h2 className=" break-all font-custom text-neutral-200 text-[8rem] leading-[1] lg:leading-[0.9] lg:text-[12rem] mt-5 mb-6 flex items-baseline flex-wrap">
  {/* IDR000205476 */}
  <FadeInText className = 'gap-[0px]' text={'I D R 0 0 0 2 0 5 4 7 6'}/>  
 </h2>
