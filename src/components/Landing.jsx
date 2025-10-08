@@ -54,7 +54,7 @@ function Landing() {
       // const scale = useTransform(scrollYProgress, [0, 1], ["1.3", "1"])
      const text= ["a", "l", "f" ,"r", "a" ,"d"]
   return (
-<div ref={sectionRef} className="border-none single-vimeo-background relative w-full h-screen overflow-hidden single-vimeo-background">
+<div ref={sectionRef} className="border-none single-vimeo-background relative w-full h-dvh overflow-hidden single-vimeo-background">
   {/* <iframe
     className="z-[2] absolute top-1/2 left-1/2 min-w-full min-h-full w-[177.77vh] h-[100vh] -translate-x-1/2 -translate-y-1/2"
     src="https://player.vimeo.com/video/1038524436?api=1&background=1&autoplay=1&loop=1&muted=1"
