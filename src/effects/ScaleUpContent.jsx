@@ -5,7 +5,7 @@ function ScaleUpContent({children,
   className = "",
   once = true,
   stiffness = 120, // spring stiffness
-  damping = 10,    // how much "bounce" / resistance
+  damping = 18,    // how much "bounce" / resistance
   delay = 0.04,
   duration=0.40,
   margin='-100px'

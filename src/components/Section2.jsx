@@ -72,10 +72,10 @@ Recycling 01
     </div>
       </div>
 
- <div className='lg:col-span-4 col-span-full lg:row-start-2 lg:col-start-1 bgred-400'>
+ <div className='px-5 lg:col-span-4 col-span-full lg:row-start-2 lg:col-start-1 bgred-400'>
       <div className='lg:sticky lg:top-1/2'>
-      <ScaleUpContent once={false}>
-    <div className="col-span-full lg:col-span-4 font-body flex-1 lg:flex-none m-2.5 flex items-center border border-[#000000] bg-[#000000] whitespace-nowrap">
+      <ScaleUpContent once={true}>
+    <div className="col-span-full lg:col-span-4 font-body flex-1 lg:flex-none m2.5 flex items-center border border-[#000000] bg-[#000000] whitespace-nowrap">
  <a href='/' className=' text-white flex w-full justify-between items-center transition-all duration-300 ease-out'>
   <span className="p-4 hidden lg:block">learn more about us</span>
   <span className="inline-fle p-4 block lg:hidden">learn more</span>
@@ -95,13 +95,13 @@ Recycling 01
       gap-4 bg-purple600 mb-64'>
 
 
-    <div className='col-span-full lg:col-span-4'>
+    <div className='px-5 col-span-full lg:col-span-4'>
     <h2 className="font-custom text-neutral-200 text-5xl leading-[1] lg:leading-[1.1] mt-5 mb-6 flex items-baseline flex-wrap">
  State of Idaho Department of Environmental Quality ID#
 </h2>
 
     </div>
-     <div className='col-span-full lg:col-span-4 col-start-4'>
+     <div className='px-5 col-span-full lg:col-span-4 col-start-4'>
     <h2 className=" break-all font-custom text-neutral-200 text-[8rem] leading-[1] lg:leading-[0.9] lg:text-[12rem] mt-5 mb-6 flex items-baseline flex-wrap">
  {/* IDR000205476 */}
  <FadeInText className = 'gap-[0px]' text={'I D R 0 0 0 2 0 5 4 7 6'}/>  

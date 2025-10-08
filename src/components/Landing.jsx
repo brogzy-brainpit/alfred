@@ -71,7 +71,7 @@ function Landing() {
             <source src="/videos/hero.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
-  <Image width={600} height={700}  className='z-[1] absolute top-0 left-0 h-screen w-screen' src={'https://alfred.nl/media/pages/home/d2cd6089b6-1712565197/g44a4376-1920x1080-crop-q72.jpg'}/>
+  <Image width={600} height={700}  className='z-[1] absolute top-0 left-0 h-screen w-screen object-cover' src={'https://alfred.nl/media/pages/home/d2cd6089b6-1712565197/g44a4376-1920x1080-crop-q72.jpg'}/>
 
   {/* Overlay */}
   <div className=" z-[2] absolute inset-0 bg-black/20"></div>
@@ -82,11 +82,9 @@ function Landing() {
   initial="initial"
   animate="enter"
   exit="exit"
-  className="text-center relative font-bold font-custom text-[50vw] lg:text-[50vw] leading-[0.9] tracking-[1] text-white flex gap-0"
+  className="text-center relative font-bold font-custom text-[60vw] lg:text-[50vw] leading-[0.9] tracking-[1] text-white flex gap-0"
 >
   {text.map((p, index) => (
-    // <span key={index} className="overflow-hidden">
-    //   </span>
       <motion.span
         custom={index}
         variants={slideUp}
