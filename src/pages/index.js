@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Landing from "@/components/Landing";
 import Section1 from "@/components/Section1";
 import Section2 from "@/components/Section2";
+import Section3 from "@/components/Section3";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -109,6 +110,7 @@ const menutextt = menutext[activeSection] || "#FF0033";
         <Landing />
         <Section1 />
         <Section2 />
+        <Section3 />
 
 
     </motion.section>

@@ -4,6 +4,7 @@ import CustomBtn from './CustomBtn'
 import CustomArrow from './CustomArrow'
 import { Facebook, FacebookIcon, Instagram, Linkedin } from 'lucide-react'
 import { motion } from 'framer-motion'
+import SlideUpElement from '@/effects/SlideUpElement'
 
 function footer() {
   const texts=[
@@ -65,9 +66,18 @@ function footer() {
 
 <div className='relative overflow-hidden'>
    <h1
-  className="text-center font-bold circular text-display leading-[1] md:leading-[0.7] tracking-[-8px] text-white"
+  className="text-center flex justify-center font-bold circular text-display leading-[1] lg:leading-[0.8]  text-white"
 >
-  alfred
+  {/* alfred */}
+  <SlideUpElement stiffness={110} damping={8} delay={0.04} gap='0px' once={false} >
+  
+    {'a l f r e d'.split(' ').map((word)=>{
+      return (
+    <span className='text-center tracking-[-8px] lg:tracking-[-15px]'>{word}</span>
+
+      )
+    })}
+  </SlideUpElement>
 </h1>
   <div className=" absolute bottom-0 bg-brand-secondary py-4 md:py-[50px] flex gap-2  w-full ">
   {/* Left side - stacked items */}

@@ -11,6 +11,8 @@ function SlideUpElement({
   className = "",
   center = false,
   gap = "10px",
+  stiffness= 120,
+  damping= 18,
 }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once, margin });
@@ -32,8 +34,8 @@ function SlideUpElement({
       opacity: 1,
       transition: {
         type: "spring",
-        stiffness: 120,
-        damping: 18,
+        stiffness,
+        damping,
         // duration, // ignored for spring but could use if tween
       },
     },
