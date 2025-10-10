@@ -4,15 +4,15 @@
 [data-scroll-container] {
   overflow-y: auto !important; 
 } */
-/* 
+
 
 .single-vimeo-background {
   --aspect-ratio-w: 16;
   --aspect-ratio-h: 9;
   --parent-height: 100; /* acts like 100vh */
-  /* position: relative;
-  overflow: hidden; */
-/* } */
+   position: relative;
+  overflow: hidden; 
+  } 
 *{
   margin: 0px;
   padding: 0px;
